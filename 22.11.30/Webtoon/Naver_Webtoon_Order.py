@@ -40,7 +40,7 @@ def searchWebtoon(driver):
     driver.close()
     return mList
 
-# 웹xns 순위 리스트를 csv 파일에 저장하는 함수
+# 웹툰 순위 리스트를 csv 파일에 저장하는 함수
 
 
 def saveToFile(filename, mList):
